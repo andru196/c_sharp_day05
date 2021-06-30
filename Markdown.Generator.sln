@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown.Generator.Core", "Markdown.Generator.Core\Markdown.Generator.Core.csproj", "{6785BC64-03D4-4135-8935-B4A88CCAC2B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown.Generator.Application", "Markdown.Generator.Application\Markdown.Generator.Application.csproj", "{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C9690C49-ACEA-4D2D-83AB-F1C0CC3290E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown.Generator.Core.Tests", "Tests\Markdown.Generator.Core.Tests\Markdown.Generator.Core.Tests.csproj", "{63BDCB5C-ADF4-4962-A8A6-AAB78438C7B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,12 @@ Global
 		{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BDCB5C-ADF4-4962-A8A6-AAB78438C7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BDCB5C-ADF4-4962-A8A6-AAB78438C7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BDCB5C-ADF4-4962-A8A6-AAB78438C7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BDCB5C-ADF4-4962-A8A6-AAB78438C7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63BDCB5C-ADF4-4962-A8A6-AAB78438C7B5} = {C9690C49-ACEA-4D2D-83AB-F1C0CC3290E7}
 	EndGlobalSection
 EndGlobal
